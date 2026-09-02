@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "tinacms dev",
+    "build": "tinacms build"
+  },
+  "dependencies": {
+    "tinacms": "latest",
+    "@tinacms/cli": "latest"
+  }
+}
