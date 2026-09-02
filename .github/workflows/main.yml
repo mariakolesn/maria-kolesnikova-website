@@ -19,8 +19,8 @@ jobs:
       - run: npm install
 
       - run: npx tinacms build
-  env:
-    TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        env:
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
 
       - name: Commit Tina files
         run: |
