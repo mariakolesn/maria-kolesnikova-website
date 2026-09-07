@@ -26,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tina/tina-lock.json admin
+          git add tina/tina-lock.json && git add -f admin
           git commit -m "Generate Tina lock file" || exit 0
           git push
